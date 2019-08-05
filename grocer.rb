@@ -3,6 +3,7 @@ def consolidate_cart(cart)
   cart.each_with_index { |item, index|
     hash[item] = index 
 }
+  hash 
 end
 
 def apply_coupons(cart, coupons)
